@@ -47,12 +47,12 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-1/4 -left-40 transform -translate-x-1/2 -translate-2/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let's Connect
+          Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I'm currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I'll
+          I&apos;m currently looking for new opportunities, my inbox is always
+          open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you! <br /><br />
             <li>Gmail : attapon.tun25@gmail.com</li>
             <li>TEL : +66 99 431 2095</li>
@@ -116,7 +116,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Let is talk about..."
               />
             </div>
             <button
