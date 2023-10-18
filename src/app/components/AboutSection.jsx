@@ -38,7 +38,6 @@ const TAB_DATA = [
         </ul>
           
           <ul className="list-disc pl-2"><p className="text-x font-extrabold">Junior High School in</p>
-        <li>Suan Sunandha Rajabhat University</li>
         <li>Chinorot Wittayalai School</li>
         </ul>
 

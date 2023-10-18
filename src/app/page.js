@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -9,6 +10,10 @@ import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
   return (
+    <div>
+      <Head>
+        <title>Portfolio</title>
+      </Head>
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
@@ -20,5 +25,6 @@ export default function Home() {
       </div>
       <Footer />
     </main>
+    </div>
   );
 }
