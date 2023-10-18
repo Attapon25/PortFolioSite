@@ -29,12 +29,12 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
           <ul className="list-disc pl-2"><p className="text-x font-extrabold">Bachelor&apos;s Degree in</p>
         <li>Suan Sunandha Rajabhat University</li>
-        <li>Computer Engineering &rsquo; GPA 3.60</li>
+        <li>Computer Engineering ∙ GPA 3.60</li>
         </ul>
           
           <ul className="list-disc pl-2"><p className="text-x font-extrabold">High School Degree in</p>
         <li>Suwannaramwittayakom School</li>
-        <li>Science - Math  &rsquo; GPA 2.60</li>
+        <li>Science - Math ∙ GPA 2.60</li>
         </ul>
           
           <ul className="list-disc pl-2"><p className="text-x font-extrabold">Junior High School in</p>
