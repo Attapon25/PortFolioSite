@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "Lalavel 9 CRUD",
     description: "Basic Lalavel 9 CRUD Project",
-    image: "/images/projects/2.png",
+    image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Attapon25/lalavel9-crud",
     previewUrl: "/",
@@ -31,6 +31,15 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Portfolio Website",
+    description: "Portfolio website using next.js and tailwindcss for styling",
+    image: "/images/projects/8.png",
+    tag: ["All", "web"],
+    gitUrl: "https://github.com/Attapon25/PortFolioSite",
+    previewUrl: "https://port-folio-site-r9rw.vercel.app/",
   },
 ];
 
