@@ -37,7 +37,7 @@ const projectsData = [
     title: "Portfolio Website",
     description: "Portfolio website using next.js and tailwindcss for styling",
     image: "/images/projects/8.png",
-    tag: ["All", "web"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/Attapon25/PortFolioSite",
     previewUrl: "https://port-folio-site-r9rw.vercel.app/",
   },

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const achievementsList = [
@@ -20,15 +21,16 @@ const achievementsList = [
     value: 2,
   },
 ];
-
+let interval = 1000;
 const AchievementsSection = () => {
   return (
     
-    <div className="relative py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <div className="relative py-8 px-4 2xl:gap-16 sm:py-16 xl:px-16">
     <div
-      className="absolute -inset-2 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-primary-600 via-zinc-600 to-secondary-600 opacity-100 blur-3xl"
+      className="absolute -inset-5 rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-primary-600 via-zinc-600 to-secondary-600 opacity-40 blur-3xl"
     ></div>
     <div className="relative py-8 px-16 flex flex-col sm:flex-row sm:flex-row items-center justify-between sm:border sm:border-zinc-#33353F rounded-md text-slate-#33353F">
+
     {achievementsList.map((achievement, index) => {
           return (
             <div

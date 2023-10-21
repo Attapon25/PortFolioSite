@@ -40,9 +40,6 @@ const HeroSection = () => {
           Computer Engineering ( 4/4 )
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-              Hire Me
-            </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
               <a href="/images/resumeAttapon_Transcript_Eng.pdf"
               download="resumeAttapon_Transcript_Eng.pdf">
