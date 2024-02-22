@@ -66,16 +66,16 @@ const EmailSection = () => {
         
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-            <div role="alert" class="rounded-xl border border-gray-100 bg-white p-4">
-              <div class="flex items-start gap-4">
-                <span class="text-green-600">
+            <div role="alert" className="rounded-xl border border-gray-100 bg-white p-4">
+              <div className="flex items-start gap-4">
+                <span className="text-green-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -85,10 +85,10 @@ const EmailSection = () => {
                   </svg>
                 </span>
 
-                <div class="flex-1">
-                  <strong class="block font-medium text-gray-900"> Email Sent Successfully! </strong>
+                <div className="flex-1">
+                  <strong className=" font-medium text-gray-900"> Email Sent Successfully! </strong>
 
-                  <p class="mt-1 text-sm text-gray-700">
+                  <p className="mt-1 text-sm text-gray-700">
                   Your email has been successfully sent.
                   </p>
                 </div>
@@ -101,7 +101,7 @@ const EmailSection = () => {
             <div className="mb-6">
               <label
                 htmlFor="email"
-                className="text-white block mb-2 text-sm font-medium"
+                className="text-white  mb-2 text-sm font-medium"
               >
                 Your email
               </label>
@@ -110,14 +110,14 @@ const EmailSection = () => {
                 type="email"
                 id="email"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  w-full p-2.5"
                 placeholder="emailname@google.com"
               />
             </div>
             <div className="mb-6">
               <label
                 htmlFor="subject"
-                className="text-white block text-sm mb-2 font-medium"
+                className="text-white  text-sm mb-2 font-medium"
               >
                 Subject
               </label>
@@ -126,21 +126,21 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  w-full p-2.5"
                 placeholder="Subject in the email"
               />
             </div>
             <div className="mb-6">
               <label
                 htmlFor="message"
-                className="text-white block text-sm mb-2 font-medium"
+                className="text-white  text-sm mb-2 font-medium"
               >
                 Message
               </label>
               <textarea
                 name="message"
                 id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  w-full p-2.5"
                 placeholder="Let is talk about..."
               />
             </div>

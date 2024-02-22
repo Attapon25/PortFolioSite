@@ -1,26 +1,68 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-:root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
      :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
+        --foreground-rgb: 0, 0, 0;
+        --background-start-rgb: 214, 219, 220;
+        --background-end-rgb: 255, 255, 255;
     }
-}
-
-body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient( to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-}
-
-.animated-container {
-    display: inline-flex!important;
-    text-align: center
-}
+    
+    @media (prefers-color-scheme: dark) {
+         :root {
+            --foreground-rgb: 255, 255, 255;
+            --background-start-rgb: 0, 0, 0;
+            --background-end-rgb: 0, 0, 0;
+        }
+    }
+    
+    body {
+        color: rgb(var(--foreground-rgb));
+        background: linear-gradient( to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    }
+    
+    .animated-container {
+        display: inline-flex!important;
+        text-align: center
+    }
+    
+    .blockk {
+        /* position: relative; */
+        /* margin: 10% auto; */
+        border-radius: 0px;
+        width: 100%;
+        height: 6.5dvh;
+        /* background-color: lightgray; */
+    }
+    
+    .glowBorder {
+        margin: 0px;
+        border: solid 8px transparent;
+        border-radius: 25px;
+        background-image: linear-gradient( 45deg, orange, purple, orange, purple, orange, purple, orange, purple);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        /* content: ""; */
+        /* position: absolute; */
+        background-size: 400%;
+        animation: animateGlowBorder 80s linear infinite;
+    }
+    /* .glowBorder::before,
+      .glowBorder::after {
+        /* z-index: -1; }*/
+    
+    @keyframes animateGlowBorder {
+        0% {
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+    
+    .glowBorder::after {
+        filter: blur(40px);
+        opacity: 0.99;
+    }
